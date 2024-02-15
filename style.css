@@ -72,3 +72,12 @@ button:hover {
 .special-btn:hover {
     background-color: #6B8E23;
 }
+
+footer {
+    font-size: 1.5rem;
+    margin-top: -3rem;
+}
+
+a {
+    color: #000;
+}
