@@ -33,7 +33,7 @@ function calculate(operation) {
         if (result === Infinity || result === -Infinity || result === undefined) {
             return "Error";
         }
-        return result > 999 ? result.toPrecision(3) : result % 1 !== 0 ? result.toFixed(1) : result;
+        return result >= 999999999 ? result.toPrecision(4) : result % 1 !== 0 ? result.toFixed(1) : result;
     } catch (error) {
         return "Error";
     }
